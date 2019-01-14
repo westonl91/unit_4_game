@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Crystal Collector game
+  </title>
+   <!-- Added link to the jQuery Library -->
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+   <script type="text/javascript" src="./assets/javascript/game.js"></script>
+
+   <!-- Added a link to Bootstrap-->
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+ 
+</head>
+
+<body>
+
+    <div id="game">
+        <h1>Crystals Collector</h1>
+
+        <p id="instructions">
+            Below is a random target number. 
+            Each Crystal is worth a certain number of points that is randomly generated at the beginning of each game.
+            Your goal is to collect the exact amount of crystals needed in order to get the same value as the target number.
+            If you go over the target number, you lose the game. 
+            Good Luck!
+        </p>
+        <div id="totalScore">
+            <p>Wins: <span id="wins"></span></p>
+            </br>
+            <p>Losses: <span id="losses"></span></p>
+        </div>
+        <p>Target number: <span id="target"></span></p>
+        </br>
+        <div id="crystalPics">
+            <img class="crystal-image" id="crystal1" src="http://cdn.playbuzz.com/cdn/35910209-2844-45c0-b099-f4d82878d54f/00261fda-4062-4096-81fd-8cf96b9034e8.jpg" height="80">
+            <img class="crystal-image" id="crystal2" src="http://cdn.playbuzz.com/cdn/35910209-2844-45c0-b099-f4d82878d54f/00261fda-4062-4096-81fd-8cf96b9034e8.jpg" height="80">
+            <img class="crystal-image" id="crystal3" src="http://cdn.playbuzz.com/cdn/35910209-2844-45c0-b099-f4d82878d54f/00261fda-4062-4096-81fd-8cf96b9034e8.jpg" height="80">
+            <img class="crystal-image" id="crystal4" src="http://cdn.playbuzz.com/cdn/35910209-2844-45c0-b099-f4d82878d54f/00261fda-4062-4096-81fd-8cf96b9034e8.jpg" height="80">
+        </div>
+        <p>Your points: <span id="points"></span></p>
+    </div>
+
+  
+
+</body>
+
+</html>
