@@ -10,8 +10,11 @@
 
    <script type="text/javascript" src="./assets/javascript/game.js"></script>
 
-   <!-- Added a link to Bootstrap-->
-   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+   <link rel="stylesheet" href="./assets/css/reset.css">
+ 
+   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+
+   <link rel="stylesheet" href="./assets/css/style.css">
  
 </head>
 
@@ -28,19 +31,24 @@
             Good Luck!
         </p>
         <div id="totalScore">
-            <p>Wins: <span id="wins"></span></p>
             </br>
-            <p>Losses: <span id="losses"></span></p>
+            <p><h3>Wins: <span id="wins"></span></h3></p>
+            <p><h3>Losses: <span id="losses"></span></h3></p>
+            </br>
         </div>
-        <p>Target number: <span id="target"></span></p>
-        </br>
+        <div id="targNum">
+            <p><h5>Target number: <span id="target"></span></h5></p>
+            </br>
+        </div>
         <div id="crystalPics">
-            <img class="crystal-image" id="crystal1" src="http://cdn.playbuzz.com/cdn/35910209-2844-45c0-b099-f4d82878d54f/00261fda-4062-4096-81fd-8cf96b9034e8.jpg" height="80">
-            <img class="crystal-image" id="crystal2" src="http://cdn.playbuzz.com/cdn/35910209-2844-45c0-b099-f4d82878d54f/00261fda-4062-4096-81fd-8cf96b9034e8.jpg" height="80">
-            <img class="crystal-image" id="crystal3" src="http://cdn.playbuzz.com/cdn/35910209-2844-45c0-b099-f4d82878d54f/00261fda-4062-4096-81fd-8cf96b9034e8.jpg" height="80">
-            <img class="crystal-image" id="crystal4" src="http://cdn.playbuzz.com/cdn/35910209-2844-45c0-b099-f4d82878d54f/00261fda-4062-4096-81fd-8cf96b9034e8.jpg" height="80">
+            <img class="crystal-image" id="crystal1" src="./assets/images/crystal1.jpg" height="120">
+            <img class="crystal-image" id="crystal2" src="./assets/images/crystal2.jpg" height="120">
+            <img class="crystal-image" id="crystal3" src="./assets/images/crystal3.jpg" height="120">
+            <img class="crystal-image" id="crystal4" src="./assets/images/crystal4.jpg" height="120">
         </div>
-        <p>Your points: <span id="points"></span></p>
+        <div id="YourPoints">
+            <p><h5>points: <span id="points"></span></h5></p>
+        </div>
     </div>
 
   

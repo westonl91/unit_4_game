@@ -59,6 +59,7 @@ $(document).ready(function () {
         if (user_points === targetNumber) {
             wins_num++;
             $("#wins").text(wins_num);
+            alert("You won!");
             reset_game();
         }
 
@@ -66,6 +67,7 @@ $(document).ready(function () {
         if (user_points > targetNumber) {
             losses_num++;
             $("#losses").text(losses_num);
+            alert("You lost.");
             reset_game();
         }
     });

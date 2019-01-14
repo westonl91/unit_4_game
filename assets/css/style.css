@@ -1,0 +1,62 @@
+body {
+    /* background-image: url(../images/positive.png); */
+    text-align: center;
+}
+
+body::after {
+    content: "";
+    display: block;
+    position: absolute;
+    z-index: -1;   
+    width: 100%;
+    height: 100%;
+    background-image: url(../images/positive.png);
+    background-size: cover;
+    opacity: 0.4;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+  }
+
+#instructions {
+    background-color: rgb(115, 202, 202, 0.7);
+    width: 60%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+}
+
+#totalScore {
+    background-color: rgb(115, 202, 202, 0.7);
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+h1 {
+    background-color: rgb(115, 202, 202, 0.7);
+}
+
+#targNum {
+    background-color: rgb(115, 202, 202, 0.7);
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+}
+
+#YourPoints {
+    background-color: rgb(115, 202, 202, 0.7); 
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px; 
+}
